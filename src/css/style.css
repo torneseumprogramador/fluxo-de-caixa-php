@@ -1,0 +1,38 @@
+body{
+    margin-top: 20px;
+}
+
+.dvCaixa > div{
+    background-color: #cfcfcf;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+.dvCaixa > div:nth-child(3){
+    background-color: red;
+}
+
+.dvBusca{
+    margin-top: 20px;
+}
+
+.dvBusca input{
+    margin-right: 10px;
+}
+
+.dvBusca .col-md-2{
+    text-align: right;
+}
+
+.dvTabela table{
+    width: 100%;
+}
+.dvTabela table thead{
+    background-color: #cfcfcf;
+}
+.dvTabela table tr{
+    border: 1px solid #cfcfcf;
+}
+.dvTabela table td, .dvTabela table th{
+    padding: 10px;
+}
