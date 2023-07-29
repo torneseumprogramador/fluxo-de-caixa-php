@@ -1,6 +1,17 @@
 {
+    "scripts": {
+        "start": "php -S localhost:8000 -t src"
+    },
     "require": {
         "slim/slim": "^4.12",
-        "illuminate/database": "^10.16"
+        "illuminate/database": "^10.16",
+        "slim/http": "^1.3",
+        "slim/psr7": "^1.6",
+        "httpsoft/http-message": "^1.1",
+        "httpsoft/http-server-request": "^1.1",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2.5",
+        "laminas/laminas-diactoros": "^3.0"
     }
 }
